@@ -2,15 +2,13 @@
 rbenv_makeopts: ""
 
 # Which user do we want to install ruby for
-ruby_deploy_user: vagrant
+ruby_deploy_user: jenkins
 
 # Which versions we want to install (see `rbenv install -l`)
-ruby_versions:
-    - 2.0.0-p353
-    - 2.1.0
+ruby_versions:  "2.4.1"
 
 # The default version (used with `rbenv global`)
-ruby_default: "2.0.0-p353"
+ruby_default: "2.3.1"
 
 # Dependencies required to build ruby
 # YMMV if you want something else than MRI
